@@ -1,0 +1,212 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "406f801ce968efba8b63568d047dcf59",
+    "packages": [
+        {
+            "name": "pablodalloglio/fpdf",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pablodalloglio/fpdf.git",
+                "reference": "d618db8f2b8549613c3b5b31e6afd9915bda9330"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pablodalloglio/fpdf/zipball/d618db8f2b8549613c3b5b31e6afd9915bda9330",
+                "reference": "d618db8f2b8549613c3b5b31e6afd9915bda9330",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "FPDF": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "./"
+            ],
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo Dall'Oglio",
+                    "email": "pablo@php.net",
+                    "role": "Lead"
+                }
+            ],
+            "description": "Derivation of FPDF with callbacks for headers, footers.",
+            "support": {
+                "issues": "https://github.com/pablodalloglio/fpdf/issues",
+                "source": "https://github.com/pablodalloglio/fpdf"
+            },
+            "time": "2023-06-01T18:33:08+00:00"
+        },
+        {
+            "name": "pablodalloglio/ole",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pablodalloglio/ole.git",
+                "reference": "7f363227708424cdc6ff9ca4764f59895b4b27a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pablodalloglio/ole/zipball/7f363227708424cdc6ff9ca4764f59895b4b27a8",
+                "reference": "7f363227708424cdc6ff9ca4764f59895b4b27a8",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "OLE": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "./"
+            ],
+            "license": [
+                "PHP-3.01"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Schmidt",
+                    "email": "schmidt@php.net",
+                    "role": "Lead"
+                },
+                {
+                    "name": "Xavier Noguer",
+                    "email": "xnoguer@php.net",
+                    "role": "Lead"
+                }
+            ],
+            "description": "Derivation from pear OLE without PEAR dependency, and with Exceptions instead of PearErrors.",
+            "support": {
+                "issues": "https://github.com/pablodalloglio/ole/issues",
+                "source": "https://github.com/pablodalloglio/OLE"
+            },
+            "time": "2023-06-01T19:22:33+00:00"
+        },
+        {
+            "name": "pablodalloglio/phprtflite",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pablodalloglio/phprtflite.git",
+                "reference": "df62039947efea1c20568b624553e0e9ba1adbea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pablodalloglio/phprtflite/zipball/df62039947efea1c20568b624553e0e9ba1adbea",
+                "reference": "df62039947efea1c20568b624553e0e9ba1adbea",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PHPRtfLite": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Steffen Zeidler",
+                    "email": "sigma_z@sigma-scripts.de"
+                }
+            ],
+            "description": "PHPRtfLite is an API enabling developers to create rtf documents with php. This fork add fixes for PHP8.",
+            "support": {
+                "issues": "https://github.com/pablodalloglio/phprtflite/issues",
+                "source": "https://github.com/pablodalloglio/phprtflite/tree/master"
+            },
+            "time": "2024-10-28T18:50:36+00:00"
+        },
+        {
+            "name": "pablodalloglio/spreadsheet_excel_writer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pablodalloglio/spreadsheet_excel_writer.git",
+                "reference": "21022df9029a58f2f812bfcb1879a1f83678d571"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pablodalloglio/spreadsheet_excel_writer/zipball/21022df9029a58f2f812bfcb1879a1f83678d571",
+                "reference": "21022df9029a58f2f812bfcb1879a1f83678d571",
+                "shasum": ""
+            },
+            "require": {
+                "pablodalloglio/ole": "*",
+                "php": ">=5.3.3"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Spreadsheet": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "./"
+            ],
+            "license": [
+                "LGPL-2.1-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Carsten Schmitz",
+                    "email": "cschmitz@limesurvey.org",
+                    "role": "Lead"
+                },
+                {
+                    "name": "Xavier Noguer",
+                    "email": "xnoguer@php.net",
+                    "role": "Lead"
+                },
+                {
+                    "name": "Franck Lefevre",
+                    "email": "progi1984@gmail.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Mika Tuupola",
+                    "email": "tuupola@appelsiini.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Derivation from SpreadsheetExcelWriter without PEAR dependency, and with Exceptions instead of PearErrors.",
+            "support": {
+                "issues": "https://github.com/pablodalloglio/spreadsheet_excel_writer/issues",
+                "source": "https://github.com/pablodalloglio/spreadsheet_excel_writer"
+            },
+            "time": "2023-06-01T19:11:16+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "pablodalloglio/fpdf": 20,
+        "pablodalloglio/ole": 20,
+        "pablodalloglio/phprtflite": 20,
+        "pablodalloglio/spreadsheet_excel_writer": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

@@ -1,0 +1,8 @@
+{
+"require": {
+    "pablodalloglio/ole": "dev-master",
+    "pablodalloglio/spreadsheet_excel_writer": "dev-master",
+    "pablodalloglio/fpdf": "dev-master",
+    "pablodalloglio/phprtflite": "dev-master"
+    }
+}
